@@ -28,20 +28,39 @@
             border-radius: 8px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         }
+        
+        /* UPDATED: Orientation Section Style */
         .orientation-section {
-            background: #f4f4f4;
+            background-color: black; /* Set background to black */
+            color: white;           /* Set default text color to white */
             padding: 2rem;
             border-radius: 12px;
             margin: 2rem 0;
+            /* Optional: Add a subtle white outline to define the box */
+            border: 1px solid #333; 
         }
+        
+        /* Ensure headings in this section are white */
+        .orientation-section h2 {
+            color: white;
+        }
+        
+        /* Ensure bold and strong tags in this section inherit white color */
+        .orientation-section strong, 
+        .orientation-section b {
+            color: white;
+        }
+
         .map-image {
             width: 100%;
             max-width: 800px;
             border-radius: 8px;
             display: block;
             margin: 0 auto 1.5rem auto;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            /* Add white shadow to make image pop against black bg */
+            box-shadow: 0 4px 8px rgba(255,255,255,0.2); 
         }
+        
         .demo {
             position: relative;
             margin-top: 1.5rem;
